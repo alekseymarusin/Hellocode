@@ -1,4 +1,4 @@
-﻿Console.Write("Введите число a");
+﻿Console.Write("Введите число");
 int a = int.Parse (Console.ReadLine ());
 
 if (a % 2 == 0)
