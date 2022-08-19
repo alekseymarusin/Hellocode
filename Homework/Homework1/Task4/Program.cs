@@ -6,7 +6,13 @@ Console.Write("Введите число c");
 int c = int.Parse (Console.ReadLine ());
 int max = a;
 
-if (a>b)
+if (b>max)
 {
-    Console.WriteLine("a ");
+    max = b;
 }
+if (c>max)
+{
+    max = c;
+}
+
+Console.Write(max);
