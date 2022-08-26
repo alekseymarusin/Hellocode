@@ -1,9 +1,9 @@
 ﻿Console.Write("Введите число a");
-int a = int.Parse (Console.ReadLine ());
+int a = Convert.ToInt32(Console.ReadLine ());
 Console.Write("Введите число b");
-int b = int.Parse (Console.ReadLine ());
+int b = Convert.ToInt32(Console.ReadLine ());
 Console.Write("Введите число c");
-int c = int.Parse (Console.ReadLine ());
+int c = Convert.ToInt32(Console.ReadLine ());
 int max = a;
 
 if (b>max)

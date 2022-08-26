@@ -1,5 +1,5 @@
 ﻿Console.Write("Введите целое число");
-int x = int.Parse (Console.ReadLine ());
+int x = Convert.ToInt32(Console.ReadLine ());
 if (x==0)
 {
 Console.WriteLine("Ноль и в Африке ноль");    
