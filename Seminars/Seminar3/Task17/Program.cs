@@ -4,10 +4,10 @@
 
 int GetNum4()
         {
-            Console.Write("Введите четверть ");
-            int x = int.Parse(Console.ReadLine());
+            Console.Write("Введите координату x ");
+            int x = Convert.ToInt32(Console.ReadLine());
             Console.Write("Введите координату y ");
-            int y = int.Parse(Console.ReadLine());  
+            int y = Convert.ToInt32(Console.ReadLine());  
             int res;
             if ( x>0 && y>0 )   res=1;
             else if ( x<0 && y>0 )   res=2;
@@ -16,7 +16,6 @@ int GetNum4()
             else res=0; 
             return res;
         }
-        
         try
             {
             Console.WriteLine(GetNum4());
