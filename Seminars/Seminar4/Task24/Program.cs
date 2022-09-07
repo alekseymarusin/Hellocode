@@ -1,6 +1,6 @@
 ﻿int[] array = {5,6,7,99,11,100,55,4};
 //foreach (int i in array) Console.Write($"{i}, ");
-for (int i = 0; i < array.lenght; i++)
+for (int i = 0; i < array.Lenght; i++)
     {
     Console.Write($"{array[i]}, ");
     }
