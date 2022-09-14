@@ -12,18 +12,18 @@ int[] FindMinMaxAvg(int[] array)
 
     for (int i=0; i < array.Length; i++)
     {
-    if (min > array[i])
-    {
-    min = array[i];
-    minIndex = i;
-    }
-    else if (max < array[i])
-    {
-    max = array[i];
-    maxIndex = i;
-    }
+        if (min > array[i])
+        {
+            min = array[i];
+            minIndex = i;
+        }
+        else if (max < array[i])
+        {
+            max = array[i];
+            maxIndex = i;
+        }
 
-    sum = sum + array[i];
+        sum = sum + array[i];
     }
     //Console.Write($"min: {min}; min index: {minIndex }; max: {max}; max index: {maxIndex}; avg: {sum/array.Length}");
 
@@ -33,8 +33,8 @@ int[] FindMinMaxAvg(int[] array)
     result[3] = maxIndex;
     result[4] = sum/array.Length;
 
-
     return result;
 }
 
-Console.WriteLine(FindMinMaxAvg(numbers));
+Console.WriteLine(FindMinMaxAvg(array));
+
