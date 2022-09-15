@@ -15,11 +15,17 @@ for (int i = 0; i < array.Length; i++)
 int sum_p = 0;
 int sum_n = 0;
 
+string s = "";
+
 foreach(int item in array)
 {
-    if (item > 0) sum_p += item;
+    if (item > 0) 
+        {
+        sum_p += item;
+        s+=$"{item}+";
+        }
     else sum_n += item;
 }
 
-Console.WriteLine($"Сумма положительных чисел равна {sum_p}");
+Console.WriteLine($"Сумма положительных чисел {s} равна {sum_p}");
 Console.WriteLine($"Сумма отрицательных чисел равна {sum_n}");
