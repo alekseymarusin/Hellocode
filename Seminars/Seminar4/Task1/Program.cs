@@ -36,5 +36,5 @@ int[] FindMinMaxAvg(int[] array)
     return result;
 }
 
-Console.WriteLine(FindMinMaxAvg(array));
+FindMinMaxAvg();
 
