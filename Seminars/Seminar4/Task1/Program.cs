@@ -36,5 +36,4 @@ int[] FindMinMaxAvg(int[] array)
     return result;
 }
 
-FindMinMaxAvg();
 

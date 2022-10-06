@@ -26,7 +26,7 @@ void Task40()
     if (IsTrianglePossible == true)
     {
         Console.WriteLine("Периметр равен " + (a + b + c));
-        Console.WriteLine("Площадь равна " + )
+        Console.WriteLine("Площадь равна " + );
     }
 }
 

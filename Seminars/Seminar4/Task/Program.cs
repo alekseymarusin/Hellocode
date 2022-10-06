@@ -1,5 +1,5 @@
-﻿Console.Write("Введите ваше имя ");
-string name = Console.ReadLine();
+﻿Console.WriteLine("Введите ваше имя ");
+string name = Convert.ToString(Console.ReadLine());
 
 switch (name)
     {
